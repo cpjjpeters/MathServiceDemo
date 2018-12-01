@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathService", "MathService\MathService.csproj", "{171CCD97-27DA-44AA-9C5C-C5D2C5824ECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "WinFormsClient\WinFormsClient.csproj", "{24FBC782-11B8-4380-A79E-F7AABAFE4D00}"
+	ProjectSection(ProjectDependencies) = postProject
+		{171CCD97-27DA-44AA-9C5C-C5D2C5824ECE} = {171CCD97-27DA-44AA-9C5C-C5D2C5824ECE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{171CCD97-27DA-44AA-9C5C-C5D2C5824ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{171CCD97-27DA-44AA-9C5C-C5D2C5824ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{171CCD97-27DA-44AA-9C5C-C5D2C5824ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FBC782-11B8-4380-A79E-F7AABAFE4D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FBC782-11B8-4380-A79E-F7AABAFE4D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FBC782-11B8-4380-A79E-F7AABAFE4D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FBC782-11B8-4380-A79E-F7AABAFE4D00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
